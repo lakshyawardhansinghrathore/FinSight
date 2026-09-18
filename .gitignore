@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.python-version
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+
+# Application Data
+chroma_data/
+data/raw_pdfs/
+data/markdown/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Database
+*.sqlite3
+*.db
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDEs
+.idea/
+
+# Python bytecode
+*.pyc
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Sensitive files
+secrets.json
+credentials.json
