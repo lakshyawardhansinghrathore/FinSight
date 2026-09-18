@@ -270,15 +270,6 @@ docker run -p 8000:8000 --env-file .env invint
 
 ---
 
-## ☁️ Cloud Deployment (Render)
-
-1. Push your code to GitHub (`.env` is gitignored — never pushed)
-2. Go to [Render.com](https://render.com) → **New Web Service** → Connect your repo
-3. Render auto-detects the `Dockerfile`
-4. Add all keys from `.env` in the **Environment Variables** section on Render
-5. Click **Deploy** — Render builds the Docker image and hosts your app
-
----
 
 <div align="center">
   Built with ❤️ using FastAPI, Google Gemini, ChromaDB & Supabase
