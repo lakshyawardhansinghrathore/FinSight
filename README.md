@@ -245,16 +245,7 @@ The platform automatically extracts the following metrics from each report using
 | **Top Risk Factors** | Key risks identified in the annual report |
 | **Top Growth Drivers** | Key growth catalysts identified in the report |
 
----
 
-## 🔒 Security Notes
-
-- Never commit your `.env` file — it is already in `.gitignore`
-- Do NOT use quotes around values in `.env` when using Docker `--env-file`
-- Store all credentials (Gemini API Key, Supabase password) securely
-- When deploying to Render, add environment variables directly in the Render dashboard
-
----
 
 ## 🐳 Docker
 
